@@ -1,6 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700');
-@import url('font-awesome.css');
-@import url('animate.css');
+/* @import url('font-awesome.css'); */
+/* @import url('animate.css'); */
 
 body {
 	font-family:'Open Sans', Arial, sans-serif;
@@ -660,7 +660,8 @@ margin: 10px 0 0 0;
 /* page headline
 ==================================== */
 
-#inner-headline{background: #2056ae url(../img/slides/1.jpg) top right;position: relative;margin: 0;padding: 24px 0;background-size: 39%;background-repeat: no-repeat;background-size: contain;padding: 0;}
+/* #inner-headline{background: #2056ae url(../img/head.jpg) top right;position: relative;margin: 0;padding: 24px 0;background-size: 39%;background-repeat: no-repeat;background-size: contain;padding: 0;} */
+#inner-headline{background: #2056ae  top right;position: relative;margin: 0;padding: 24px 0;background-size: 39%;background-repeat: no-repeat;background-size: contain;padding: 0;}
 #inner-headline:before{content:'';position: absolute;/* background: rgba(0, 0, 0, 0.42); */z-index: 1;top: 0;left: 0;right: 0;bottom: 0;}
 
 #inner-headline h2.pageTitle{
@@ -1846,3 +1847,14 @@ padding-top: 3px;
 			margin: 1%;
 		}
     }
+
+.p-3 a{
+	    font-size: 1.6rem;
+	    line-height: 1.6;
+	    color: #007bff;
+}
+
+.font-italic {
+    font-style: italic!important;
+    font-size: 1.6em;
+}

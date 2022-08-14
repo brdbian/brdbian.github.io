@@ -1858,3 +1858,18 @@ padding-top: 3px;
     font-style: italic!important;
     font-size: 1.5em;
 }
+
+.itembox{
+	height: 500px;
+	width: 100%;
+	background-color: rgb(55,124,202);
+}
+.item-right{
+	height: 100%;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+.item-left{
+	height: 100%;
+}
